@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./leaflet.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="header">
+  <h3 id="title2">Résultats par bureau de vote - la nuance dépend du pourcentage de votes.</h3>
+  <select id="select-candidate" onchange="location.href='#'+this.value;location.reload();">
+  </select> <a href="index.html">Carte complète</a>
+</div>
+<div id="map"></div>
+<div id="footer">
+</div>
+
+<script src="./leaflet-0.7.2.js"></script>
+<!--   <script type="text/javascript" src="http://d3js.org/d3.v2.js"></script> -->
+<script type="text/javascript" src="Control.TouchHover.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.2/chroma.min.js"></script>
+<script type="text/javascript" src="bureaux4.geojson"></script>
+<script type="text/javascript" src="results_1general.json"></script>
+<script type="text/javascript" src="results_1detail.json"></script>
+<script type="text/javascript">
+
+  var osmAttrib = '<a href="http://data.nantes.fr/donnees/detail/decoupage-geographique-des-bureaux-de-vote-de-la-ville-de-nantes/" target="_blank">D&eacute;coupage</a>';
+
+  var map = L.map('map', {maxZoom: 17, minZoom: 11}).setView([47.22, -1.55], 12);
+  // Don't show the 'Powered by Leaflet' text
+    map.attributionControl.setPrefix(osmAttrib);
+    map.setMaxBounds(new L.LatLngBounds(new L.LatLng(47.210635, -1.714549),new L.LatLng(47.126744, -1.455216)));
+    L.tileLayer("https://tilestream.makina-corpus.net/v2/nantes-desaturate/{z}/{x}/{y}.png",{attribution:'&copy; Contributeurs <a href="http://osm.org/copyright">OpenStreetMap</a>'}).addTo(map)
+    //L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; Contributeurs <a href="http://osm.org/copyright">OpenStreetMap</a>'}).addTo(map)
+
+
+  if (L.Browser.touch) {
+    L.control.touchHover().addTo(map);
+  }
+
+  // get color depending on the candidate
+  var colors = {
+    'amadou': '#FB7102'
+    , 'avello': '#1B2638'
+    , 'calonne': '#1B2640'
+    , 'scales': '#7AB42D'
+    , 'egron': '#FF0000'
+    , 'pernot': '#FF0011'
+    , 'raimbourg': '#8297BE'
+    , 'rebora': '#8297CE'
+    , 'barrely': '#8297DE'
+    , 'rineau': '#8297EE'
+    , 'koriat': '#8298EE'
+    , 'legeay': '#8299EE'
+    , 'semsar_behague': '#8291EE'
+    , 'magaud': '#8292EE'
+    , 'merand': '#8293EE'
+  };
+  var fullNames = {
+    'amadou': 'Aude Amadou'
+    , 'avello': 'avellot'
+    , 'calonne': 'calonne'
+    , 'scales': 'scales'
+    , 'egron': 'Vincent Egron'
+    , 'pernot': 'pernot'
+    , 'raimbourg': 'raimbourg'
+    , 'rebora': 'rebora'
+    , 'barrely': 'barrely'
+    , 'rineau': 'rineau'
+    , 'koriat': 'koriat'
+    , 'legeay': 'legeay'
+    , 'magaud': 'magaud'
+    , 'semsar_behague': 'semsar_behague'
+    , 'merand': 'merand'
+  };
+  var partis = {
+    'amadou': 'LREM'
+    , 'avello': 'FN'
+    , 'calonne': 'DLF'
+    , 'scales': 'LCPHAP'
+    , 'egron': 'FI'
+    , 'pernot': 'PCF'
+    , 'raimbourg': 'PS'
+    , 'rebora': 'PFE'
+    , 'koriat': 'blancs'
+    , 'barrely': 'REG'
+    , 'rineau': 'Pchrétien'
+    , 'legeay': 'animalistes'
+    , 'magaud': 'PCR'
+    , 'semsar_behague': 'RDG'
+    , 'merand': 'UDI'
+  };
+
+  var current_candidat = location.hash ? location.hash.substr(1) : 'egron';
+  var maxScores = {}, minScores = {};
+
+  // console.log(results);
+  var keys = Object.keys(resultsd);
+  for (var key in resultsd) {
+    var bureau_results = resultsd[key];
+    var index;
+    for (index = 0; index < bureau_results.length; index++) {
+      var candidat = bureau_results[index];
+      for (var name in candidat) {
+        if (name === current_candidat) {
+          resultsd[key] = [candidat];
+        }
+        if (!maxScores[name]) maxScores[name] = candidat[name];
+        else
+          maxScores[name] = Math.max(candidat[name], maxScores[name]);
+        if (!minScores[name]) minScores[name] = candidat[name];
+        else
+          minScores[name] = Math.min(candidat[name], minScores[name]);
+      }
+    }
+  }
+
+  var select = document.getElementById('select-candidate');
+  for(var b in fullNames) {
+    select.options[select.options.length] = new Option(fullNames[b], b, b == current_candidat, b == current_candidat);
+  }
+
+  function getColor(candidat, rate) {
+    scale = chroma.scale(['white', chroma(colors[candidat]).saturate(50)]);
+    var color = scale(rate).darken(rate * 20).hex();
+    return color;
+  }
+
+  function getScale(candidat, scale) {
+    return Math.round(maxScores[candidat] * scale * 10) / 10;
+  }
+
+  function bureauxStyle(feature) {
+    var candidat = Object.keys(resultsd[feature.properties.ASSOCIANT][0])[0];
+    var rate = resultsd[feature.properties.ASSOCIANT][0][candidat] / maxScores[candidat]
+    return {
+      color: "lightgrey",
+      weight: 1,
+      opacity: 1,
+      fillColor: getColor(candidat, rate),
+      fillOpacity: 0.5,
+    };
+  }
+
+  function highlightFeature(e) {
+    var layer = e.target;
+    legend.update(layer.feature.properties);
+    layer.setStyle({
+      weight: 4,
+    });
+  }
+
+  var geojson;
+
+  function resetHighlight(e) {
+    geojson.setStyle(bureauxStyle);
+    legend.update();
+  }
+
+  function onEachFeature(feature, layer) {
+    layer.on({
+      mouseover: highlightFeature,
+      mouseout: resetHighlight,
+    });
+  }
+
+  geojson = L.geoJson(bureaux, {
+    style: bureauxStyle,
+    onEachFeature: onEachFeature
+  }).addTo(map);
+
+  var legend = L.control({position: 'topright'});
+
+  legend.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'legend info');
+    this.update();
+    return this._div;
+  };
+
+  legend.update = function (bureau) {
+    var scales = "";
+    scales += '<li><canvas width="30" height="20" style="border: 1px solid ' + getColor(current_candidat) + '; background-color: ' + getColor(current_candidat, 0.1) + '; opacity: 0.5"></canvas> ' + getScale(current_candidat, 0) + ' à ' + getScale(current_candidat, 0.2) + ' %</li>';
+    scales += '<li><canvas width="30" height="20" style="border: 1px solid ' + getColor(current_candidat) + '; background-color: ' + getColor(current_candidat, 0.3) + '; opacity: 0.5"></canvas> ' + getScale(current_candidat, 0.2) + ' à ' + getScale(current_candidat, 0.4) + ' %</li>';
+    scales += '<li><canvas width="30" height="20" style="border: 1px solid ' + getColor(current_candidat) + '; background-color: ' + getColor(current_candidat, 0.5) + '; opacity: 0.5"></canvas> ' + getScale(current_candidat, 0.4) + ' à ' + getScale(current_candidat, 0.6) + ' %</li>';
+    scales += '<li><canvas width="30" height="20" style="border: 1px solid ' + getColor(current_candidat) + '; background-color: ' + getColor(current_candidat, 0.7) + '; opacity: 0.5"></canvas> ' + getScale(current_candidat, 0.6) + ' à ' + getScale(current_candidat, 0.8) + ' %</li>';
+    scales += '<li><canvas width="30" height="20" style="border: 1px solid ' + getColor(current_candidat) + '; background-color: ' + getColor(current_candidat, 0.9) + '; opacity: 0.5"></canvas> ' + getScale(current_candidat, 0.8) + ' à ' + getScale(current_candidat, 1) + ' %</li>';
+    if (bureau) {
+      var resultsList = '<ul>';
+      resultsList += scales;
+      for (var key in resultsd[bureau.ASSOCIANT]) {
+        var value = resultsd[bureau.ASSOCIANT][key];
+        resultsList += '<li><canvas id="myCanvas" width="';
+        resultsList += value[Object.keys(value)] * 2;
+        resultsList += '" height="20" style="border:1px solid ' + getColor(current_candidat, 1) + '; background-color:';
+        resultsList += getColor(current_candidat, 1);
+        resultsList += '; opacity: 0.5;"></canvas> ';
+        resultsList += fullNames[Object.keys(value)];
+        resultsList += '<span class="parti"> (' + partis[Object.keys(value)] + ')</span> : ';
+        resultsList += Math.round(value[Object.keys(value)] * 100) / 100;
+        resultsList += '%</li>';
+      }
+      ;
+      resultsList += '</ul>';
+      this._div.innerHTML = '<b>' + bureau.NOM + '</b> (n°' + bureau.ASSOCIANT.replace(/^0+/, '') + ')<br />' + resultsList;
+    } else {
+      var resultsList = '<ul>';
+      resultsList += scales;
+      for (var key in resultsg) {
+        var value = resultsg[key];
+        if (Object.keys(value) == current_candidat) {
+          resultsList += '<li><canvas id="myCanvas" width="';
+          resultsList += value[Object.keys(value)] * 2;
+          resultsList += '" height="20" style="border:1px solid ' + getColor(current_candidat, 1) + '; background-color:';
+          resultsList += getColor(current_candidat, 1);
+          resultsList += '; opacity: 0.5;"></canvas> ';
+          resultsList += fullNames[Object.keys(value)];
+          resultsList += '<span class="parti"> (' + partis[Object.keys(value)] + ')</span> : ';
+          resultsList += Math.round(value[Object.keys(value)] * 100) / 100;
+          resultsList += '%</li>';
+        }
+      }
+      ;
+      resultsList += '</ul>';
+      this._div.innerHTML = '<h3>Résultats à Nantes</h3>' + 'Survolez un bureau de vote pour plus de détails' + resultsList;
+    }
+    ;
+  };
+  legend.addTo(map);
+</script>
+</body>
+</html>
