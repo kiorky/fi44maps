@@ -1,0 +1,842 @@
+{
+  "Bouguenais-13": [
+    {
+      "amadou": "41.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "3.00"
+    }, 
+    {
+      "raimbourg": "9.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "4.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "1.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "12.00"
+    }, 
+    {
+      "egron": "19.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "0.00"
+    }, 
+    {
+      "avello": "6.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-15": [
+    {
+      "amadou": "40.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "1.00"
+    }, 
+    {
+      "raimbourg": "14.00"
+    }, 
+    {
+      "raynaud": "1.00"
+    }, 
+    {
+      "nicolas": "4.00"
+    }, 
+    {
+      "rebora": "1.00"
+    }, 
+    {
+      "scales": "1.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "8.00"
+    }, 
+    {
+      "egron": "18.00"
+    }, 
+    {
+      "legeay": "1.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "8.00"
+    }, 
+    {
+      "semsar_behague": "1.00"
+    }
+  ], 
+  "Bouguenais-12": [
+    {
+      "amadou": "36.00"
+    }, 
+    {
+      "calonne": "1.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "2.00"
+    }, 
+    {
+      "raimbourg": "16.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "2.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "1.00"
+    }, 
+    {
+      "cram": "1.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "10.00"
+    }, 
+    {
+      "egron": "20.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "8.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-11": [
+    {
+      "amadou": "32.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "2.00"
+    }, 
+    {
+      "raimbourg": "20.00"
+    }, 
+    {
+      "raynaud": "1.00"
+    }, 
+    {
+      "nicolas": "4.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "2.00"
+    }, 
+    {
+      "cram": "1.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "9.00"
+    }, 
+    {
+      "egron": "16.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "9.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-7": [
+    {
+      "amadou": "37.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "1.00"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "1.00"
+    }, 
+    {
+      "raimbourg": "18.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "5.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "1.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "11.00"
+    }, 
+    {
+      "egron": "16.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "6.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-6": [
+    {
+      "amadou": "38.00"
+    }, 
+    {
+      "calonne": "3.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "2.00"
+    }, 
+    {
+      "raimbourg": "11.00"
+    }, 
+    {
+      "raynaud": "1.00"
+    }, 
+    {
+      "nicolas": "3.00"
+    }, 
+    {
+      "rebora": "1.00"
+    }, 
+    {
+      "scales": "2.00"
+    }, 
+    {
+      "cram": "1.00"
+    }, 
+    {
+      "koriat": "0.00"
+    }, 
+    {
+      "merand": "6.00"
+    }, 
+    {
+      "egron": "21.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "0.00"
+    }, 
+    {
+      "avello": "11.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-5": [
+    {
+      "amadou": "34.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "1.00"
+    }, 
+    {
+      "raimbourg": "14.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "5.00"
+    }, 
+    {
+      "rebora": "1.00"
+    }, 
+    {
+      "scales": "3.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "8.00"
+    }, 
+    {
+      "egron": "24.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "5.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-4": [
+    {
+      "amadou": "43.00"
+    }, 
+    {
+      "calonne": "1.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "2.00"
+    }, 
+    {
+      "raimbourg": "13.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "5.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "1.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "0.00"
+    }, 
+    {
+      "merand": "7.00"
+    }, 
+    {
+      "egron": "18.00"
+    }, 
+    {
+      "legeay": "1.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "7.00"
+    }, 
+    {
+      "semsar_behague": "1.00"
+    }
+  ], 
+  "Bouguenais-3": [
+    {
+      "amadou": "40.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "2.00"
+    }, 
+    {
+      "raimbourg": "11.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "6.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "1.00"
+    }, 
+    {
+      "cram": "1.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "8.00"
+    }, 
+    {
+      "egron": "19.00"
+    }, 
+    {
+      "legeay": "1.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "5.00"
+    }, 
+    {
+      "semsar_behague": "1.00"
+    }
+  ], 
+  "Bouguenais-2": [
+    {
+      "amadou": "36.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "3.00"
+    }, 
+    {
+      "raimbourg": "11.00"
+    }, 
+    {
+      "raynaud": "1.00"
+    }, 
+    {
+      "nicolas": "4.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "2.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "7.00"
+    }, 
+    {
+      "egron": "25.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "6.00"
+    }, 
+    {
+      "semsar_behague": "1.00"
+    }
+  ], 
+  "Bouguenais-1": [
+    {
+      "amadou": "35.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "2.00"
+    }, 
+    {
+      "raimbourg": "15.00"
+    }, 
+    {
+      "raynaud": "1.00"
+    }, 
+    {
+      "nicolas": "4.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "2.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "5.00"
+    }, 
+    {
+      "egron": "23.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "0.00"
+    }, 
+    {
+      "avello": "8.00"
+    }, 
+    {
+      "semsar_behague": "1.00"
+    }
+  ], 
+  "Bouguenais-14": [
+    {
+      "amadou": "39.00"
+    }, 
+    {
+      "calonne": "2.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "1.00"
+    }, 
+    {
+      "raimbourg": "13.00"
+    }, 
+    {
+      "raynaud": "1.00"
+    }, 
+    {
+      "nicolas": "2.00"
+    }, 
+    {
+      "rebora": "1.00"
+    }, 
+    {
+      "scales": "2.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "0.00"
+    }, 
+    {
+      "merand": "9.00"
+    }, 
+    {
+      "egron": "20.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "0.00"
+    }, 
+    {
+      "avello": "10.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-10": [
+    {
+      "amadou": "41.00"
+    }, 
+    {
+      "calonne": "0.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "1.00"
+    }, 
+    {
+      "raimbourg": "17.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "3.00"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "1.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "0.00"
+    }, 
+    {
+      "merand": "7.00"
+    }, 
+    {
+      "egron": "18.00"
+    }, 
+    {
+      "legeay": "1.00"
+    }, 
+    {
+      "barrely": "0.00"
+    }, 
+    {
+      "avello": "7.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "Bouguenais-9": [
+    {
+      "amadou": "36.00"
+    }, 
+    {
+      "calonne": "1.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.00"
+    }, 
+    {
+      "pernot": "1.00"
+    }, 
+    {
+      "raimbourg": "15.00"
+    }, 
+    {
+      "raynaud": "1.00"
+    }, 
+    {
+      "nicolas": "5.00"
+    }, 
+    {
+      "rebora": "1.00"
+    }, 
+    {
+      "scales": "2.00"
+    }, 
+    {
+      "cram": "1.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "6.00"
+    }, 
+    {
+      "egron": "22.00"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "0.00"
+    }, 
+    {
+      "avello": "7.00"
+    }, 
+    {
+      "semsar_behague": "1.00"
+    }
+  ], 
+  "Bouguenais-8": [
+    {
+      "amadou": "36.00"
+    }, 
+    {
+      "calonne": "1.00"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "2.00"
+    }, 
+    {
+      "raimbourg": "12.00"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "3.00"
+    }, 
+    {
+      "rebora": "1.00"
+    }, 
+    {
+      "scales": "2.00"
+    }, 
+    {
+      "cram": "0.00"
+    }, 
+    {
+      "koriat": "1.00"
+    }, 
+    {
+      "merand": "10.00"
+    }, 
+    {
+      "egron": "25.00"
+    }, 
+    {
+      "legeay": "1.00"
+    }, 
+    {
+      "barrely": "1.00"
+    }, 
+    {
+      "avello": "5.00"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ]
+}

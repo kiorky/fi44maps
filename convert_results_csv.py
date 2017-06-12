@@ -40,8 +40,8 @@ if __name__ == '__main__':
             if not candidat:
                 continue
             for item, val in six.iteritems(row):
-                if re.search('Rez', item):
+                if re.search('Boug', item):
                     recorder = data.setdefault(item, [])
-                    recorder.append({candidat: val.replace(',', '.')})
+                    recorder.append({candidat: val.replace(',', '.').replace('%', '') })
     with open(sys.argv[2], 'w') as outfile:
         response_json = json.dump(data, outfile, indent=2)

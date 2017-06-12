@@ -62,6 +62,7 @@ var partis = {
 //
 var resultsd = {};
 var resultsdreze = {};
+var resultsdbouguenais = {};
 var resultsg = {};
 var geojson;
 var map;
@@ -76,6 +77,12 @@ $.ajax({
   success: function(data) {resultsd = data;}
 });
 $.ajax({
+  url: "bouguenais.json",
+  dataType: 'json',
+  async: false,
+  success: function(data) {resultsdbouguenais = data;}
+});
+$.ajax({
   url: "reze.json",
   dataType: 'json',
   async: false,
@@ -88,6 +95,7 @@ $.ajax({
   success: function(data) {resultsg = data;}
 })
 $.extend(resultsd, resultsdreze);
+$.extend(resultsd, resultsdbouguenais);
 
 function resetHighlight(e) {
     geojson.setStyle(bureauxStyle);
