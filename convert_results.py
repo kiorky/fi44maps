@@ -12,6 +12,7 @@ import sys
 """
 candidates = ['AMADOU',
               'EGRON',
+              'NICOLAS',
               'MERAND',
               'KORIAT',
               'SCALES',
