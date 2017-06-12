@@ -57,7 +57,7 @@ var partis = {
   , 'legeay': 'animalistes'
   , 'magaud': 'PCR'
   , 'semsar_behague': 'RDG'
-  , 'merand': 'merand'
+  , 'merand': 'UDI'
 };
 //
 var resultsd = {};
