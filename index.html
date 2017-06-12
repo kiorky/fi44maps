@@ -12,7 +12,7 @@
         <div id="header">
           <h3 id="title2">Résultats par bureau de vote - la couleur affichée ne sert qu'à délimiter !</h3>
         </div>
-        <a href="./by-candidate.html"/> Mode par candidat</a>
+        <a href="./by-candidate.html">Mode par candidat</a>
         <div id="map"></div>
         <div id="footer"> </div>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -23,17 +23,18 @@
         <script type="text/javascript" src="common.js"></script>
         <script type="text/javascript" src="bureaux4.js"></script>
         <script type="text/javascript">
-
-    function getColor(candidat) { return colors[candidat]; }
-    function bureauxStyle(feature) {
-      return {
-        color: "lightgrey",
-        weight: 1,
-        opacity: 4,
-        fillColor: "red",
-        fillOpacity: 0.6
-      };
-    }
+function getColor(candidat) { return colors[candidat]; }
+function bureauxStyle(feature) {
+  return {
+    color: "lightgrey",
+    weight: 1,
+    opacity: 4,
+    fillColor: "red",
+    fillOpacity: 0.6
+  };
+}
+$(document).ready(function() {
+    launchmap();
     legend.update = function (bureau) {
       if (false || bureau) {
         var resultsList = '<ul>';
@@ -76,6 +77,7 @@
       };
     };
     legend.addTo(map);
+  });
   </script>
 </body>
 </html>

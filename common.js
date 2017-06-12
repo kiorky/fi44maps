@@ -12,10 +12,12 @@ var colors = {
   , 'barrely': '#8297DE'
   , 'rineau': '#8297EE'
   , 'koriat': '#8298EE'
+  , 'raynaud': '#4299EE'
   , 'legeay': '#8299EE'
   , 'semsar_behague': '#8291EE'
   , 'magaud': '#8292EE'
   , 'merand': '#8293EE'
+  , 'cram': '#8294EE'
 };
 var fullNames = {
   'amadou': 'Aude Amadou'
@@ -26,6 +28,7 @@ var fullNames = {
   , 'egron': 'Vincent Egron'
   , 'pernot': 'pernot'
   , 'raimbourg': 'raimbourg'
+  , 'raynaud': 'raynaud'
   , 'rebora': 'rebora'
   , 'barrely': 'barrely'
   , 'rineau': 'rineau'
@@ -34,10 +37,13 @@ var fullNames = {
   , 'magaud': 'magaud'
   , 'semsar_behague': 'semsar_behague'
   , 'merand': 'merand'
+  , 'cram': 'cram'
 };
 var partis = {
   'amadou': 'LREM'
   , 'avello': 'FN'
+  , 'cram': 'UPR'
+  , 'raynaud': 'LO'
   , 'nicolas': 'EELV'
   , 'calonne': 'DLF'
   , 'scales': 'LCPHAP'
