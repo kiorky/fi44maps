@@ -5,7 +5,7 @@ var colors = {
   , 'avello': '#1B2638'
   , 'calonne': '#1B2640'
   , 'scales': '#7AB42D'
-  , 'egron': '#FF0000'
+  , 'egron': '#E50000'
   , 'pernot': '#FF0011'
   , 'raimbourg': '#8297BE'
   , 'rebora': '#8297CE'
@@ -61,6 +61,7 @@ var partis = {
 };
 //
 var resultsd = {};
+var resultsdreze = {};
 var resultsg = {};
 var geojson;
 var map;
@@ -68,8 +69,25 @@ var legend;
 var osmAttrib = '<a href="http://data.nantes.fr/donnees/detail/decoupage-geographique-des-bureaux-de-vote-de-la-ville-de-nantes/" target="_blank">D&eacute;coupage</a>';
 var osm;
 //
-jQuery.getJSON("results_1detail.json", function(data) { resultsd = data; });
-jQuery.getJSON("results_1general.json", function(data) { resultsg = data; });
+$.ajax({
+  url: "results_1detail.json",
+  dataType: 'json',
+  async: false,
+  success: function(data) {resultsd = data;}
+});
+$.ajax({
+  url: "reze.json",
+  dataType: 'json',
+  async: false,
+  success: function(data) {resultsdreze = data;}
+});
+$.ajax({
+  url: "results_1general.json",
+  dataType: 'json',
+  async: false,
+  success: function(data) {resultsg = data;}
+})
+$.extend(resultsd, resultsdreze);
 
 function resetHighlight(e) {
     geojson.setStyle(bureauxStyle);

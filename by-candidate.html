@@ -32,8 +32,8 @@ var maxScores = {}, minScores = {};
 var keys = Object.keys(resultsd);
 var select = document.getElementById('select-candidate');
 function getColor(candidat, rate) {
-  scale = chroma.scale(['white', chroma(colors[candidat]).saturate(50)]);
-  var color = scale(rate).darken(rate * 20).hex();
+  scale = chroma.scale(['white', chroma(colors[candidat]).saturate(30)]);
+  var color = scale(rate).darken(rate * 40).hex();
   return color;
 }
 
@@ -41,15 +41,22 @@ function getScale(candidat, scale) {
   return Math.round(maxScores[candidat] * scale * 10) / 10;
 }
 
+
 function bureauxStyle(feature) {
-  var candidat = Object.keys(resultsd[feature.properties.ASSOCIANT][0])[0];
-  var rate = resultsd[feature.properties.ASSOCIANT][0][candidat] / maxScores[candidat]
+  var associant = feature.properties.ASSOCIANT;
+  var candidat = associant;
+  try {
+    var candidat = Object.keys(resultsd[candidat][0])[0];
+    var rate = resultsd[feature.properties.ASSOCIANT][0][candidat] / maxScores[candidat]
+  } catch (e){
+    var rate = 1;
+  }
   return {
     color: "lightgrey",
     weight: 1,
     opacity: 1,
     fillColor: getColor(candidat, rate),
-    fillOpacity: 0.5,
+    fillOpacity: 0.7,
   };
 }
 
@@ -112,7 +119,7 @@ select.options[select.options.length] = new Option(
           resultsList += value[Object.keys(value)] * 2;
           resultsList += '" height="20" style="border:1px solid ' + getColor(current_candidat, 1) + '; background-color:';
           resultsList += getColor(current_candidat, 1);
-          resultsList += '; opacity: 0.5;"></canvas> ';
+          resultsList += '; opacity: 0.6;"></canvas> ';
           resultsList += fullNames[Object.keys(value)];
           resultsList += '<span class="parti"> (' + partis[Object.keys(value)] + ')</span> : ';
           resultsList += Math.round(value[Object.keys(value)] * 100) / 100;
