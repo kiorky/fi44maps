@@ -74,7 +74,7 @@ for (var key in resultsd) {
 }
 for(var b in fullNames) {
 select.options[select.options.length] = new Option(
-      fullNames[b]+" ( "+partis[b]+" ) ", b, b == current_candidat, b == current_candidat);
+      fullNames[b], b, b == current_candidat, b == current_candidat);
 }
   launchmap();
   legend.update = function (bureau) {
