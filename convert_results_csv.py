@@ -40,7 +40,7 @@ if __name__ == '__main__':
             if not candidat:
                 continue
             for item, val in six.iteritems(row):
-                if re.search('Boug', item):
+                if re.search('Boug|Rez|saintseb', item):
                     recorder = data.setdefault(item, [])
                     recorder.append({candidat: val.replace(',', '.').replace('%', '') })
     with open(sys.argv[2], 'w') as outfile:

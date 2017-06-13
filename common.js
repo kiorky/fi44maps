@@ -63,6 +63,7 @@ var partis = {
 var resultsd = {};
 var resultsdreze = {};
 var resultsdbouguenais = {};
+var resultsdsaintseb = {};
 var resultsg = {};
 var geojson;
 var map;
@@ -83,6 +84,12 @@ $.ajax({
   success: function(data) {resultsdbouguenais = data;}
 });
 $.ajax({
+  url: "saintseb.json",
+  dataType: 'json',
+  async: false,
+  success: function(data) {resultsdsaintseb = data;}
+});
+$.ajax({
   url: "reze.json",
   dataType: 'json',
   async: false,
@@ -96,6 +103,7 @@ $.ajax({
 })
 $.extend(resultsd, resultsdreze);
 $.extend(resultsd, resultsdbouguenais);
+$.extend(resultsd, resultsdsaintseb);
 
 function resetHighlight(e) {
     geojson.setStyle(bureauxStyle);

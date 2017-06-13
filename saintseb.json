@@ -1,0 +1,954 @@
+{
+  "saintseb-6": [
+    {
+      "amadou": "37.24"
+    }, 
+    {
+      "calonne": "0.00"
+    }, 
+    {
+      "magaud": "0.15"
+    }, 
+    {
+      "rineau": "0.58"
+    }, 
+    {
+      "pernot": "0.75"
+    }, 
+    {
+      "raimbourg": "14.76"
+    }, 
+    {
+      "raynaud": "0.60"
+    }, 
+    {
+      "nicolas": "2.75"
+    }, 
+    {
+      "rebora": "0.00"
+    }, 
+    {
+      "scales": "0.87"
+    }, 
+    {
+      "cram": "0.75"
+    }, 
+    {
+      "koriat": "0.43"
+    }, 
+    {
+      "merand": "11.75"
+    }, 
+    {
+      "egron": "10.71"
+    }, 
+    {
+      "legeay": "0.45"
+    }, 
+    {
+      "barrely": "1.01"
+    }, 
+    {
+      "avello": "3.92"
+    }, 
+    {
+      "semsar_behague": "0.58"
+    }
+  ], 
+  "saintseb-4": [
+    {
+      "amadou": "40.48"
+    }, 
+    {
+      "calonne": "1.59"
+    }, 
+    {
+      "magaud": "0.15"
+    }, 
+    {
+      "rineau": "0.58"
+    }, 
+    {
+      "pernot": "0.60"
+    }, 
+    {
+      "raimbourg": "17.66"
+    }, 
+    {
+      "raynaud": "0.15"
+    }, 
+    {
+      "nicolas": "2.89"
+    }, 
+    {
+      "rebora": "0.45"
+    }, 
+    {
+      "scales": "0.87"
+    }, 
+    {
+      "cram": "0.45"
+    }, 
+    {
+      "koriat": "0.29"
+    }, 
+    {
+      "merand": "10.39"
+    }, 
+    {
+      "egron": "12.74"
+    }, 
+    {
+      "legeay": "0.15"
+    }, 
+    {
+      "barrely": "0.29"
+    }, 
+    {
+      "avello": "5.12"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "saintseb-5": [
+    {
+      "amadou": "38.08"
+    }, 
+    {
+      "calonne": "1.45"
+    }, 
+    {
+      "magaud": "0.15"
+    }, 
+    {
+      "rineau": "0.58"
+    }, 
+    {
+      "pernot": "0.60"
+    }, 
+    {
+      "raimbourg": "18.38"
+    }, 
+    {
+      "raynaud": "0.45"
+    }, 
+    {
+      "nicolas": "3.91"
+    }, 
+    {
+      "rebora": "0.30"
+    }, 
+    {
+      "scales": "1.74"
+    }, 
+    {
+      "cram": "0.30"
+    }, 
+    {
+      "koriat": "0.14"
+    }, 
+    {
+      "merand": "8.89"
+    }, 
+    {
+      "egron": "14.33"
+    }, 
+    {
+      "legeay": "0.75"
+    }, 
+    {
+      "barrely": "0.87"
+    }, 
+    {
+      "avello": "6.02"
+    }, 
+    {
+      "semsar_behague": "1.59"
+    }
+  ], 
+  "saintseb-2": [
+    {
+      "amadou": "44.15"
+    }, 
+    {
+      "calonne": "1.45"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.29"
+    }, 
+    {
+      "pernot": "0.30"
+    }, 
+    {
+      "raimbourg": "14.76"
+    }, 
+    {
+      "raynaud": "0.60"
+    }, 
+    {
+      "nicolas": "5.07"
+    }, 
+    {
+      "rebora": "0.90"
+    }, 
+    {
+      "scales": "1.30"
+    }, 
+    {
+      "cram": "0.30"
+    }, 
+    {
+      "koriat": "0.43"
+    }, 
+    {
+      "merand": "14.46"
+    }, 
+    {
+      "egron": "9.84"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "0.43"
+    }, 
+    {
+      "avello": "5.42"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ], 
+  "saintseb-3": [
+    {
+      "amadou": "41.18"
+    }, 
+    {
+      "calonne": "1.59"
+    }, 
+    {
+      "magaud": "0.15"
+    }, 
+    {
+      "rineau": "0.29"
+    }, 
+    {
+      "pernot": "0.45"
+    }, 
+    {
+      "raimbourg": "14.04"
+    }, 
+    {
+      "raynaud": "0.15"
+    }, 
+    {
+      "nicolas": "3.33"
+    }, 
+    {
+      "rebora": "0.30"
+    }, 
+    {
+      "scales": "2.46"
+    }, 
+    {
+      "cram": "0.75"
+    }, 
+    {
+      "koriat": "0.14"
+    }, 
+    {
+      "merand": "13.10"
+    }, 
+    {
+      "egron": "12.16"
+    }, 
+    {
+      "legeay": "0.15"
+    }, 
+    {
+      "barrely": "0.58"
+    }, 
+    {
+      "avello": "4.67"
+    }, 
+    {
+      "semsar_behague": "0.29"
+    }
+  ], 
+  "saintseb-1": [
+    {
+      "amadou": "45.13"
+    }, 
+    {
+      "calonne": "1.59"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.87"
+    }, 
+    {
+      "pernot": "0.75"
+    }, 
+    {
+      "raimbourg": "14.33"
+    }, 
+    {
+      "raynaud": "0.75"
+    }, 
+    {
+      "nicolas": "3.62"
+    }, 
+    {
+      "rebora": "0.15"
+    }, 
+    {
+      "scales": "1.01"
+    }, 
+    {
+      "cram": "0.60"
+    }, 
+    {
+      "koriat": "0.43"
+    }, 
+    {
+      "merand": "13.40"
+    }, 
+    {
+      "egron": "12.74"
+    }, 
+    {
+      "legeay": "0.15"
+    }, 
+    {
+      "barrely": "0.29"
+    }, 
+    {
+      "avello": "6.17"
+    }, 
+    {
+      "semsar_behague": "0.29"
+    }
+  ], 
+  "saintseb-8": [
+    {
+      "amadou": "37.24"
+    }, 
+    {
+      "calonne": "1.30"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.29"
+    }, 
+    {
+      "pernot": "1.05"
+    }, 
+    {
+      "raimbourg": "21.56"
+    }, 
+    {
+      "raynaud": "1.66"
+    }, 
+    {
+      "nicolas": "2.89"
+    }, 
+    {
+      "rebora": "0.30"
+    }, 
+    {
+      "scales": "1.59"
+    }, 
+    {
+      "cram": "0.45"
+    }, 
+    {
+      "koriat": "0.72"
+    }, 
+    {
+      "merand": "10.24"
+    }, 
+    {
+      "egron": "15.34"
+    }, 
+    {
+      "legeay": "0.30"
+    }, 
+    {
+      "barrely": "0.29"
+    }, 
+    {
+      "avello": "5.72"
+    }, 
+    {
+      "semsar_behague": "0.29"
+    }
+  ], 
+  "saintseb-9": [
+    {
+      "amadou": "41.89"
+    }, 
+    {
+      "calonne": "2.17"
+    }, 
+    {
+      "magaud": "0.15"
+    }, 
+    {
+      "rineau": "0.29"
+    }, 
+    {
+      "pernot": "0.60"
+    }, 
+    {
+      "raimbourg": "17.22"
+    }, 
+    {
+      "raynaud": "0.75"
+    }, 
+    {
+      "nicolas": "3.62"
+    }, 
+    {
+      "rebora": "0.30"
+    }, 
+    {
+      "scales": "2.75"
+    }, 
+    {
+      "cram": "0.60"
+    }, 
+    {
+      "koriat": "0.14"
+    }, 
+    {
+      "merand": "12.05"
+    }, 
+    {
+      "egron": "16.50"
+    }, 
+    {
+      "legeay": "0.15"
+    }, 
+    {
+      "barrely": "0.72"
+    }, 
+    {
+      "avello": "4.52"
+    }, 
+    {
+      "semsar_behague": "0.58"
+    }
+  ], 
+  "saintseb-7": [
+    {
+      "amadou": "31.88"
+    }, 
+    {
+      "calonne": "1.01"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.58"
+    }, 
+    {
+      "pernot": "0.60"
+    }, 
+    {
+      "raimbourg": "19.97"
+    }, 
+    {
+      "raynaud": "0.45"
+    }, 
+    {
+      "nicolas": "4.34"
+    }, 
+    {
+      "rebora": "0.45"
+    }, 
+    {
+      "scales": "1.45"
+    }, 
+    {
+      "cram": "0.45"
+    }, 
+    {
+      "koriat": "0.29"
+    }, 
+    {
+      "merand": "6.48"
+    }, 
+    {
+      "egron": "14.76"
+    }, 
+    {
+      "legeay": "0.15"
+    }, 
+    {
+      "barrely": "2.17"
+    }, 
+    {
+      "avello": "5.87"
+    }, 
+    {
+      "semsar_behague": "0.14"
+    }
+  ], 
+  "saintseb-14": [
+    {
+      "amadou": "37.09"
+    }, 
+    {
+      "calonne": "2.03"
+    }, 
+    {
+      "magaud": "0.30"
+    }, 
+    {
+      "rineau": "0.58"
+    }, 
+    {
+      "pernot": "0.60"
+    }, 
+    {
+      "raimbourg": "13.89"
+    }, 
+    {
+      "raynaud": "0.45"
+    }, 
+    {
+      "nicolas": "3.91"
+    }, 
+    {
+      "rebora": "0.15"
+    }, 
+    {
+      "scales": "0.72"
+    }, 
+    {
+      "cram": "0.45"
+    }, 
+    {
+      "koriat": "0.14"
+    }, 
+    {
+      "merand": "9.34"
+    }, 
+    {
+      "egron": "14.33"
+    }, 
+    {
+      "legeay": "0.15"
+    }, 
+    {
+      "barrely": "0.72"
+    }, 
+    {
+      "avello": "5.12"
+    }, 
+    {
+      "semsar_behague": "0.29"
+    }
+  ], 
+  "saintseb-15": [
+    {
+      "amadou": "42.88"
+    }, 
+    {
+      "calonne": "0.43"
+    }, 
+    {
+      "magaud": "0.30"
+    }, 
+    {
+      "rineau": "0.00"
+    }, 
+    {
+      "pernot": "0.30"
+    }, 
+    {
+      "raimbourg": "18.09"
+    }, 
+    {
+      "raynaud": "0.15"
+    }, 
+    {
+      "nicolas": "3.91"
+    }, 
+    {
+      "rebora": "0.60"
+    }, 
+    {
+      "scales": "1.30"
+    }, 
+    {
+      "cram": "0.90"
+    }, 
+    {
+      "koriat": "0.87"
+    }, 
+    {
+      "merand": "13.86"
+    }, 
+    {
+      "egron": "11.58"
+    }, 
+    {
+      "legeay": "0.00"
+    }, 
+    {
+      "barrely": "0.29"
+    }, 
+    {
+      "avello": "3.77"
+    }, 
+    {
+      "semsar_behague": "0.14"
+    }
+  ], 
+  "saintseb-16": [
+    {
+      "amadou": "44.15"
+    }, 
+    {
+      "calonne": "0.87"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.29"
+    }, 
+    {
+      "pernot": "0.15"
+    }, 
+    {
+      "raimbourg": "14.76"
+    }, 
+    {
+      "raynaud": "0.15"
+    }, 
+    {
+      "nicolas": "3.91"
+    }, 
+    {
+      "rebora": "0.30"
+    }, 
+    {
+      "scales": "0.87"
+    }, 
+    {
+      "cram": "0.15"
+    }, 
+    {
+      "koriat": "0.43"
+    }, 
+    {
+      "merand": "18.37"
+    }, 
+    {
+      "egron": "10.42"
+    }, 
+    {
+      "legeay": "0.30"
+    }, 
+    {
+      "barrely": "0.14"
+    }, 
+    {
+      "avello": "4.52"
+    }, 
+    {
+      "semsar_behague": "0.14"
+    }
+  ], 
+  "saintseb-17": [
+    {
+      "amadou": "31.45"
+    }, 
+    {
+      "calonne": "0.72"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.43"
+    }, 
+    {
+      "pernot": "0.75"
+    }, 
+    {
+      "raimbourg": "13.31"
+    }, 
+    {
+      "raynaud": "0.60"
+    }, 
+    {
+      "nicolas": "4.78"
+    }, 
+    {
+      "rebora": "0.60"
+    }, 
+    {
+      "scales": "1.16"
+    }, 
+    {
+      "cram": "0.15"
+    }, 
+    {
+      "koriat": "0.72"
+    }, 
+    {
+      "merand": "8.13"
+    }, 
+    {
+      "egron": "12.45"
+    }, 
+    {
+      "legeay": "0.60"
+    }, 
+    {
+      "barrely": "0.58"
+    }, 
+    {
+      "avello": "3.61"
+    }, 
+    {
+      "semsar_behague": "1.01"
+    }
+  ], 
+  "saintseb-10": [
+    {
+      "amadou": "48.52"
+    }, 
+    {
+      "calonne": "1.01"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.58"
+    }, 
+    {
+      "pernot": "0.75"
+    }, 
+    {
+      "raimbourg": "13.75"
+    }, 
+    {
+      "raynaud": "0.30"
+    }, 
+    {
+      "nicolas": "2.75"
+    }, 
+    {
+      "rebora": "0.15"
+    }, 
+    {
+      "scales": "1.16"
+    }, 
+    {
+      "cram": "0.30"
+    }, 
+    {
+      "koriat": "0.14"
+    }, 
+    {
+      "merand": "12.65"
+    }, 
+    {
+      "egron": "11.00"
+    }, 
+    {
+      "legeay": "0.30"
+    }, 
+    {
+      "barrely": "0.14"
+    }, 
+    {
+      "avello": "3.77"
+    }, 
+    {
+      "semsar_behague": "0.29"
+    }
+  ], 
+  "saintseb-11": [
+    {
+      "amadou": "33.43"
+    }, 
+    {
+      "calonne": "1.30"
+    }, 
+    {
+      "magaud": "0.15"
+    }, 
+    {
+      "rineau": "0.87"
+    }, 
+    {
+      "pernot": "0.45"
+    }, 
+    {
+      "raimbourg": "12.30"
+    }, 
+    {
+      "raynaud": "0.45"
+    }, 
+    {
+      "nicolas": "6.80"
+    }, 
+    {
+      "rebora": "0.15"
+    }, 
+    {
+      "scales": "0.72"
+    }, 
+    {
+      "cram": "0.90"
+    }, 
+    {
+      "koriat": "0.58"
+    }, 
+    {
+      "merand": "8.28"
+    }, 
+    {
+      "egron": "12.30"
+    }, 
+    {
+      "legeay": "0.15"
+    }, 
+    {
+      "barrely": "0.87"
+    }, 
+    {
+      "avello": "3.77"
+    }, 
+    {
+      "semsar_behague": "0.43"
+    }
+  ], 
+  "saintseb-12": [
+    {
+      "amadou": "43.44"
+    }, 
+    {
+      "calonne": "1.45"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "0.43"
+    }, 
+    {
+      "pernot": "0.75"
+    }, 
+    {
+      "raimbourg": "17.37"
+    }, 
+    {
+      "raynaud": "0.00"
+    }, 
+    {
+      "nicolas": "5.21"
+    }, 
+    {
+      "rebora": "0.90"
+    }, 
+    {
+      "scales": "0.87"
+    }, 
+    {
+      "cram": "0.15"
+    }, 
+    {
+      "koriat": "0.43"
+    }, 
+    {
+      "merand": "13.25"
+    }, 
+    {
+      "egron": "13.31"
+    }, 
+    {
+      "legeay": "0.30"
+    }, 
+    {
+      "barrely": "0.58"
+    }, 
+    {
+      "avello": "3.61"
+    }, 
+    {
+      "semsar_behague": "0.29"
+    }
+  ], 
+  "saintseb-13": [
+    {
+      "amadou": "40.06"
+    }, 
+    {
+      "calonne": "1.59"
+    }, 
+    {
+      "magaud": "0.00"
+    }, 
+    {
+      "rineau": "1.45"
+    }, 
+    {
+      "pernot": "0.75"
+    }, 
+    {
+      "raimbourg": "16.21"
+    }, 
+    {
+      "raynaud": "0.15"
+    }, 
+    {
+      "nicolas": "6.08"
+    }, 
+    {
+      "rebora": "0.30"
+    }, 
+    {
+      "scales": "0.58"
+    }, 
+    {
+      "cram": "0.45"
+    }, 
+    {
+      "koriat": "0.00"
+    }, 
+    {
+      "merand": "9.04"
+    }, 
+    {
+      "egron": "13.31"
+    }, 
+    {
+      "legeay": "0.30"
+    }, 
+    {
+      "barrely": "0.43"
+    }, 
+    {
+      "avello": "3.31"
+    }, 
+    {
+      "semsar_behague": "0.00"
+    }
+  ]
+}
