@@ -801,7 +801,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "name": "saintseb-8"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [

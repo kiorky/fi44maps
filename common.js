@@ -123,7 +123,7 @@ function highlightFeature(e) {
 function launchmap() {
     map = L.map('map', {maxZoom: 17, minZoom: 11}).setView([47.22, -1.55], 12);
     map.attributionControl.setPrefix(osmAttrib);
-    map.setMaxBounds(new L.LatLngBounds(new L.LatLng(47.210635, -1.714549),new L.LatLng(47.126744, -1.455216)));
+    map.setMaxBounds(new L.LatLngBounds(new L.LatLng(47.230752, -1.694697),new L.LatLng(47.128512, -1.413313)));
     L.tileLayer("https://tilestream.makina-corpus.net/v2/nantes-desaturate/{z}/{x}/{y}.png",{attribution:'&copy; Contributeurs <a href="http://osm.org/copyright">OpenStreetMap</a>'}).addTo(map)
     if (L.Browser.touch) { L.control.touchHover().addTo(map); }
     geojson = L.geoJson(
