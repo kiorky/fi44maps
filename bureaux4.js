@@ -10,6 +10,18 @@ $.ajax({
   });
   }
 });
+var nantesall = new Array();
+$.ajax({
+  url: "nantes.geojson",
+  dataType: 'json',
+  async: false,
+  success: function(data) {
+  $.each(data["features"], function(i, elem) {
+    elem["properties"]["ASSOCIANT"] = elem["properties"]["name"];
+    nantesall.push(elem);
+  });
+  }
+}); 
 var saintseball = new Array();
 $.ajax({
   url: "saintseb.geojson",
@@ -79,6 +91,7 @@ var allbureaux = [pontsaintmartin,
     saintaignangrandlieu,
     bouaye, brains];
 var mallbureaux = $.merge($.merge([], allbureaux), rezeall);
+var mallbureaux = $.merge($.merge([], allbureaux), nantesall);
 var mallbureaux = $.merge($.merge([], mallbureaux), saintseball);
 var mallbureaux = $.merge($.merge([], mallbureaux), bouguenaisall);
 var bureaux = {
